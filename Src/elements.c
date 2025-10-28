@@ -8,7 +8,7 @@ Plants Sat[Plants_Num];
 void CreatePlants() {
     for (int i = 0; i < Plants_Num; i++) {
         plant[i].radius = 80;
-        plant[i].color = WHITE;
+        plant[i].color = YELLOW;
         plant[i].pos = (Vector2){windowWidth / 2, WindowHeight / 2};
         plant[i].mass = 200000;
         plant[i].vel = (Vector2){0, 0};
@@ -18,7 +18,7 @@ void CreatePlants() {
 void createSat() {
     for (int i = 0; i < Plants_Num; i++) {
         Sat[i].radius = 40;
-        Sat[i].color = RED;
+        Sat[i].color = WHITE;
         Sat[i].pos = (Vector2){windowWidth / 2, WindowHeight - 100};
         Sat[i].mass = 2000;
         Sat[i].vel = (Vector2){2, 0}; 
